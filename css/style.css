@@ -1,0 +1,328 @@
+/* Normas generales */ 
+/*font-family: 'Montserrat', sans-serif;*/
+ol{
+    list-style: none;
+}
+ul{
+    list-style: none;
+}
+.titulo{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.texto{
+    font-family: 'Montserrat', sans-serif;
+}
+.pie{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif
+}
+.linea{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.degra{
+    background-image: linear-gradient(90deg, rgba(255,106,0,1) 22%, rgba(255,106,8,0.21612394957983194) 100%);
+}
+/* Fin normas generales */
+/*Menu*/
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuimg{
+    width: 250px;
+    height: 250px;
+    transition: all 1s;
+}
+.menuimg:hover{
+    transform: scale(2);
+}
+.botones{
+    text-align:center;
+    border-radius: 3px;
+    background-color: #ff6a00b2;
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px;
+    padding: 10px;
+}
+.botonesflex{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    align-items: center;
+}
+/*Intro*/
+.naranjo{
+    font-weight: 1000;
+    text-align: center;
+    font-size: 95px;
+    font-family: 'Montserrat', sans-serif;
+}
+.intro{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+}
+.transp{
+    background-color:#ff6a0042;
+    width: 100%;
+    z-index: 10;
+}
+.titulofilosofia{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+    color: white;
+}
+.filosofiatexto{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+}
+.parallaxinicio{
+    background-image:url("/Users/PC/Documents/sofia/naranjoweb/img/main.png");
+    height: 700px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:50px;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.vs{
+    width: 550px;
+    height: 550px;
+}
+.destac{
+    background-color: #ffb580;
+    padding-top: 2px;
+    padding-left: 5px;
+    width: 100%;
+    height: 100%;
+}
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+}  
+.equipo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+.textocentro{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 15px;
+}   
+/*Productos*/
+.parallaxprod{
+    background-image: url("/Users/PC/Documents/sofia/naranjoweb/img/productos/mixjabones3.png");
+    height: 600px;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.destacimg{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.contprod{
+    width: 270px;
+    height: 300px;
+    border: 5px solid #ff6a00b2;
+    border-radius: 15px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    background:-webkit-linear-gradient(232deg, rgba(255, 189, 74, 1) 0%, rgb(247, 210, 183) 50%, rgba(252, 252, 252, 0.637) 100%);
+}
+.nota{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-content: center;
+}
+.orden{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 25px;
+    align-content: center;
+    width: 100%;
+}
+/*Equipo*/
+.nombre{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+.nosotrasimg{
+    width: 355px;
+    height: 370px;
+    border-radius: 15px;
+}
+/*fijar si este revende se utiliza*/
+.revende{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.flexitemc{
+    width: 350px;
+    height: 500px;
+    flex-shrink: 1;
+    align-content: center;
+ }   
+/*Sobre nosotras*/
+.titulonos{
+    font-weight: 1000;
+    text-align: center;
+    font-size: 95px;
+    font-family: 'Montserrat', sans-serif;
+}
+.titulonosw{
+    font-weight: 1000;
+    text-align: center;
+    font-size: 95px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+.textonos{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+}
+.familia{
+    text-align: center;
+}
+.parallax{
+    background-image:url("/Users/PC/Documents/sofia/naranjoweb/img/equipo2.png");
+    height: 700px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}  
+/*Mayorista*/
+.reventa{
+    width: 1333px;;
+    height: 1330px;
+}
+.prllxrev{
+    background-image: url("/Users/PC/Documents/sofia/naranjoweb/img/productos/revendedor.png");
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*Contacto*/
+.txtc{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.gridcontacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto
+}
+/*Footer*/
+footer h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+footer{
+    background:-webkit-linear-gradient(232deg, rgba(255, 189, 74, 1) 0%, rgba(255, 181, 128, 1) 50%, rgba(255, 107, 0, 1) 100%);
+    border: 3px solid white;
+    border-radius: 15px;
+    color: white;
+    margin-top: 25px;
+    width: 100%;
+    height: 100%;
+}
+footer nav{
+    margin: 10px;
+}
+footer p{
+    margin: 10px;
+}
+footer nav ul li{
+    display: inline;
+}
+i{
+    font-size: 50px;
+    color: black;
+}
+.wp{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    color: black;
+    z-index: 20;
+}
+/*Animaciones*/
+a:hover{
+    animation: subrayado 4s;
+}
+@keyframes subrayado {
+    0%{
+        text-decoration: underline;
+    }
+}
+/*Resposive*/
+
+
+
+
