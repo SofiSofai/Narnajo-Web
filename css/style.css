@@ -88,7 +88,7 @@ a{
     text-align: center;
 }
 .parallaxinicio{
-    background-image:url("/Users/PC/Documents/sofia/naranjoweb/img/main.png");
+    background-image:url("../img/main.png");
     height: 700px;
     width: 100%;
     background-attachment: fixed;
@@ -133,7 +133,7 @@ a{
 }   
 /*Productos*/
 .parallaxprod{
-    background-image: url("/Users/PC/Documents/sofia/naranjoweb/img/productos/mixjabones3.png");
+    background-image: url("../img/productos/mixjabones3.png");
     height: 600px;
     width: 100%;
     background-position:center;
@@ -232,7 +232,7 @@ a{
     text-align: center;
 }
 .parallax{
-    background-image:url("/Users/PC/Documents/sofia/naranjoweb/img/equipo2.png");
+    background-image:url("../img/equipo2.png");
     height: 700px;
     width: 100%;
     background-attachment: fixed;
@@ -247,7 +247,7 @@ a{
     height: 1330px;
 }
 .prllxrev{
-    background-image: url("/Users/PC/Documents/sofia/naranjoweb/img/productos/revendedor.png");
+    background-image: url("../img/productos/revendedor.png");
     height: 500px;
     width: 100%;
     background-attachment: fixed;
