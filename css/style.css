@@ -1,4 +1,8 @@
 /* Normas generales */ 
+/* *{
+    padding: 0px;
+    margin: 0px;
+} */
 /*font-family: 'Montserrat', sans-serif;*/
 ol{
     list-style: none;
@@ -31,33 +35,24 @@ a{
 }
 /* Fin normas generales */
 /*Menu*/
-.menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 .menuimg{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     transition: all 1s;
 }
 .menuimg:hover{
     transform: scale(2);
 }
-.botones{
-    text-align:center;
-    border-radius: 3px;
-    background-color: #ff6a00b2;
-    display: inline;
-    font-family: 'Montserrat', sans-serif;
-    margin: 15px;
-    padding: 10px;
+.colornav{
+    background-color: #ffdcc3 !important;
+    width: 100% auto;
+    height: 200px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0px;
 }
-.botonesflex{
-    display: flex;
-    flex-flow: row wrap;
-    gap: 20px;
-    align-items: center;
+header{
+    height: 250px;
 }
 /*Intro*/
 .naranjo{
@@ -89,7 +84,7 @@ a{
 }
 .parallaxinicio{
     background-image:url("../img/main.png");
-    height: 700px;
+    height: auto;
     width: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -322,6 +317,14 @@ a:hover{
     }
 }
 /*Resposive*/
+@media screen and (max-width: 768px) {
+    .navbar{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 786px) {
+  
+}
 
 
 
