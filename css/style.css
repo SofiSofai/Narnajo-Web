@@ -1,8 +1,8 @@
 /* Normas generales */ 
-/* *{
+*{
     padding: 0px;
     margin: 0px;
-} */
+}
 /*font-family: 'Montserrat', sans-serif;*/
 ol{
     list-style: none;
@@ -54,6 +54,12 @@ a{
 header{
     height: 250px;
 }
+.navbar{
+    position: static;
+}
+.offcanvas{
+    background-color: #ffdcc3;
+}
 /*Intro*/
 .naranjo{
     font-weight: 1000;
@@ -101,7 +107,7 @@ header{
     height: 550px;
 }
 .destac{
-    background-color: #ffb580;
+    background-color: #ffdcc3;
     padding-top: 2px;
     padding-left: 5px;
     width: 100%;
@@ -120,11 +126,16 @@ header{
     justify-content: center;
     align-items: center;
     column-gap: 15px;
+    margin-top: 15px;
 }
 .textocentro{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding: 15px;
+}
+.jus{
+    text-align: justify;
+    margin-left: 10px;
 }   
 /*Productos*/
 .parallaxprod{
@@ -243,7 +254,7 @@ header{
 }
 .prllxrev{
     background-image: url("../img/productos/revendedor.png");
-    height: 500px;
+    height: auto;
     width: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -279,7 +290,7 @@ footer h2{
     text-align: center;
 }
 footer{
-    background:-webkit-linear-gradient(232deg, rgba(255, 189, 74, 1) 0%, rgba(255, 181, 128, 1) 50%, rgba(255, 107, 0, 1) 100%);
+    background:-webkit-linear-gradient(232deg, rgb(248, 169, 95) 0%, rgba(255, 181, 128, 1) 50%, rgb(255, 220, 196) 100%);
     border: 3px solid white;
     border-radius: 15px;
     color: white;
@@ -302,8 +313,8 @@ i{
 }
 .wp{
     position: fixed;
-    bottom: 15px;
-    right: 15px;
+    bottom: 5%;
+    left: 95%;
     color: black;
     z-index: 20;
 }
@@ -321,9 +332,33 @@ a:hover{
     .navbar{
         width: 100%;
     }
+    .wp{
+        display: none;
+    }
+    i{
+        font-size: 40px;
+    }
+    .eq{
+        display: none;
+    }
+    .textocentro{
+        display: none;
+    }
+    .orden{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-row-gap: 25px;
+        grid-column-gap: 15px;
+    }
+    .call{
+        display: none;
+    }
 }
 @media screen and (min-width: 786px) {
-  
+  .wpno{
+    display: none;
+  }
 }
 
 
