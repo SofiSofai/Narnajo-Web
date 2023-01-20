@@ -56,6 +56,10 @@ header{
 .offcanvas{
     background-color: #ffdcc3;
 }
+.redes-menu{
+    display: inline;
+    text-align: end !important;
+}
 /*Intro*/
 .font-naranjo{
     font-weight: 1000;
