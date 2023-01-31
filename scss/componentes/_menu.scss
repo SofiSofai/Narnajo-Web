@@ -1,0 +1,39 @@
+.nav-img{
+    width: 200px;
+    height: 200px;
+    transition: all 1s;
+}
+.nav-img:hover{
+    transform: scale(2);
+}
+.nav-color{
+    background-color: $color-nav !important;
+    width: 100% auto;
+    height: 200px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0px;
+}
+.navbar{
+    position: static;
+    @media screen and (max-width: 575px) {
+        width: 100%;
+        }
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+}
+.offcanvas{
+    background-color: $color-nav;
+}
+i{
+    font-size: 40px;
+    color: $negro;
+    @media screen and (max-width: 575px) {
+        font-size: 30px;
+    }
+    @media screen and (max-width: 768px) {
+        font-size: 30px;
+    }
+}
+

@@ -1,0 +1,72 @@
+.titulo-prllx{
+    text-align: center;
+    font-family: $font-texto;
+    font-weight: 500px;
+    color: $blanco;
+}
+.texto-prllx{
+    font-family: $font-texto;
+    color: $blanco;
+    text-align: center;
+}
+.parallax-inicio{
+    background-image:url("../img/main.png");
+    height: auto;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:50px;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.parallax-prod{
+    background-image: url("../img/productos/mixjabones3.png");
+    height: 600px;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.parallax-nosotras{
+    background-image:url("../img/equipo2.png");
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.parallax-reventa{
+    background-image: url("../img/productos/revendedor.png");
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    color: $blanco;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    @media screen and (max-width: 768px) {
+        height: auto;
+        width: 100%;
+    }
+}
+.transp{
+    background-color: $transp;
+    width: 100%;
+    z-index: 10;
+}
