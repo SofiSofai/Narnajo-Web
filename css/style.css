@@ -290,6 +290,24 @@ footer nav div {
     display: none;
   }
 }
+.texto-contacto {
+  font-family: "Montserrat";
+  text-align: center;
+  font-weight: 600;
+}
+
+.flex-contacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.grid-contacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -484,27 +502,6 @@ header {
 @media screen and (max-width: 575px) {
   .separacion {
     margin-top: 70px;
-  }
-}
-@media screen and (max-width: 575px) {
-  .texto-contacto {
-    font-family: "Montserrat";
-    text-align: center;
-    font-weight: 600;
-  }
-}
-@media screen and (max-width: 575px) {
-  .flex-contacto {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-}
-@media screen and (max-width: 575px) {
-  .grid-contacto {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
   }
 }
 

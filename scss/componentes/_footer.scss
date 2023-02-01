@@ -45,3 +45,19 @@ footer nav div{
         display: none;
     }
 }
+//contacto
+.texto-contacto{
+    font-family: $font-texto;
+    text-align: center;
+    font-weight: 600;
+}
+.flex-contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.grid-contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto
+}

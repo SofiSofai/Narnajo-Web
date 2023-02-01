@@ -1,0 +1,58 @@
+.nombre{
+    font-family: $font-texto;
+    font-style: italic;
+}
+.nosotras-img{
+    width: 250;
+    height: 360px;
+    border-radius: 15px;
+}
+.contenedor-equipo{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    @media screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.card{
+    align-items: center;
+    border: 1px solid $borde;
+    margin: 15px;
+    align-content: center;
+}
+@media screen and (min-width: 768px) {
+    .card-equipo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    }
+}
+.flex-item-equipo{
+    width: 350px;
+    height: 500px;
+    flex-shrink: 1;
+    align-content: center;
+    margin: 5px;
+    align-items: center;
+ }
+@media screen and (max-width: 575px) {
+    .equipo-oculto{
+        display: none;
+    }
+@media screen and (max-width: 768px) {
+    .equipo-oculto{
+        display: none;
+    }
+}
+
+//sobre nosotras
+.separacion{
+    margin-top: 70px;
+}  
+}

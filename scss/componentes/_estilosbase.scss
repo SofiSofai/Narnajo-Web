@@ -1,0 +1,45 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
+ol{
+    list-style: none;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: $negro;
+    &:hover{
+        animation: subrayado 4s;
+    }
+    @keyframes subrayado {
+        0%{
+            text-decoration: underline;
+        }
+    }
+}
+header{
+    height: 250px;
+}
+.titulo{
+    font-family: map-get($titulo , fuente);
+    font-weight: map-get($titulo, grosor);
+}
+.texto{
+    font-family: $font-texto;
+    @media screen and (max-width: 575px) {
+        font-family: $font-texto;
+        font-size: 15px;
+    }
+}
+.pie{
+    text-align: left;
+    font-family: $font-texto;
+}
