@@ -4,7 +4,7 @@ footer h2{
     text-align: center;
 }
 footer{
-    background:-webkit-linear-gradient(232deg, rgb(248, 169, 95) 0%, rgba(255, 181, 128, 1) 50%, rgb(255, 220, 196) 100%);
+    background:-webkit-linear-gradient(232deg, rgb(248, 169, 95) 0%, rgba(255, 181, 128, 1) 50%, rgb(245, 191, 155) 100%);
     border: 3px solid $blanco;
     border-radius: 15px;
     color: $blanco;
@@ -60,4 +60,18 @@ footer nav div{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto
+}
+.mapa{
+    @media screen and (max-width: 575px) {
+        height: 250px;
+        width: 300px;
+    }
+}
+.font-naranjo{
+    @media screen and (max-width: 575px) {
+        font-weight: map-get($titulos-naranjo, grosor );
+        text-align: map-get($titulos-naranjo, alineacion);
+        font-size: 70px;
+        font-family: map-get($titulos-naranjo, fuente);    
+    } 
 }
