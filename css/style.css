@@ -37,7 +37,7 @@
 
 i {
   font-size: 40px;
-  color: black;
+  color: #2e2c2c;
 }
 @media screen and (max-width: 575px) {
   i {
@@ -266,7 +266,7 @@ footer nav div {
   position: fixed;
   bottom: 5%;
   left: 95%;
-  color: black;
+  color: #2e2c2c;
   z-index: 20;
 }
 @media screen and (max-width: 786px) {
@@ -343,7 +343,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #2e2c2c;
 }
 a:hover {
   animation: subrayado 4s;
