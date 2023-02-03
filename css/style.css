@@ -269,22 +269,21 @@ footer nav div {
   color: black;
   z-index: 20;
 }
-@media screen and (max-width: 575px) {
-  .wp {
-    display: none;
-  }
-}
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 786px) {
   .wp {
     display: none;
   }
 }
 
+.wpno {
+  margin-left: 5px;
+}
 @media screen and (min-width: 786px) {
   .wpno {
     display: none;
   }
 }
+
 @media screen and (max-width: 768px) {
   .call {
     display: none;
