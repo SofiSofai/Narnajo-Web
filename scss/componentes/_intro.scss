@@ -58,7 +58,9 @@
     flex-wrap: wrap;
 }   
 .natural-artificial{
-    display: inline;
-    width: auto;
-    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-sh{
+    flex-shrink: 1;
 }

@@ -234,6 +234,12 @@ i {
   flex-wrap: wrap;
 }
 
+@media screen and (max-width: 768px) {
+  .producto {
+    width: 10rem !important;
+  }
+}
+
 footer h2 {
   font-family: "Montserrat";
   font-weight: 700;
@@ -455,9 +461,12 @@ header {
 }
 
 .natural-artificial {
-  display: inline;
-  width: auto;
-  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-sh {
+  flex-shrink: 1;
 }
 
 .nombre {
