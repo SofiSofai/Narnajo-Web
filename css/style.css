@@ -462,11 +462,17 @@ header {
 
 .natural-artificial {
   display: flex;
-  flex-wrap: wrap;
+  width: auto;
+  padding: 5px;
 }
 
 .flex-sh {
   flex-shrink: 1;
+  justify-content: center;
+  align-content: center;
+  padding-top: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .nombre {
