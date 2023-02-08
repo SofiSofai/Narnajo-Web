@@ -90,4 +90,21 @@
 @media screen and (max-width: 768px) {
     width: 10rem !important;
 }
+}
+form, label, input {
+    font-family: $font-texto;
+}
+input{
+    border: 1px solid $borde;
+    border-radius: 15px;
+}
+.btnEnviar{
+    background-color:$color-nav ;
+    padding: 5px;
+    margin-top: 15px;
+    color: $negro;
+}
+form{
+    display: flex;
+    flex-direction: column;
 }  

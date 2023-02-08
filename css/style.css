@@ -111,7 +111,7 @@ i {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   color: white;
   text-align: center;
   display: flex;
@@ -238,6 +238,27 @@ i {
   .producto {
     width: 10rem !important;
   }
+}
+
+form, label, input {
+  font-family: "Montserrat";
+}
+
+input {
+  border: 1px solid rgba(255, 106, 0, 0.6980392157);
+  border-radius: 15px;
+}
+
+.btnEnviar {
+  background-color: #ffdcc3;
+  padding: 5px;
+  margin-top: 15px;
+  color: #2e2c2c;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
 }
 
 footer h2 {
